@@ -391,7 +391,7 @@ nav{
     margin: 10px 0;
     border: none;
     outline: none;
-    background-color: var(--second-background-color);
+    background-color: var(--text-color);
     border-radius: 5px;
     padding: 5px 10px;
 }
@@ -402,7 +402,7 @@ nav{
     margin: 10px 0;
     border: none;
     outline: none;
-    background-color: var(--second-background-color);
+    background-color: var(--text-color);
 }
 .sendbtn{
     color: var(--text-color);
