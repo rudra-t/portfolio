@@ -8,8 +8,8 @@
     font-family: 'Dosis', sans-serif;
 }
 html{
-    --background-color:#1A1A24;
-    --second-background-color:#292836;
+    --background-color:#16161e;
+    --second-background-color:#212029;
     --sec-bg-color: #EBD18D;
     --text-color: #F4F4F4;
     --second-text-color:#1A1A24;
@@ -182,7 +182,7 @@ nav{
     grid-template-columns: repeat(2, 1fr);
     min-height: 100vh;
     align-items: center;
-    gap: 2rem;
+    gap: 4rem;
 }
 .about1 h1{
     font-size: 2.9rem;
@@ -214,7 +214,7 @@ nav{
     border: 2px solid var(--background-color);
 }
 .about2 img{
-    width: 70%;
+    width: 100%;
 }
 @media screen and (max-width: 992px) {
     .about1 h1{
@@ -254,7 +254,6 @@ nav{
     }
     .about2 img{
         width: 100%;
-        margin: 3rem 0;
     }
 }
 /*------------------------------------------about end---------------------------------------*/
@@ -289,6 +288,7 @@ nav{
     justify-content: center;
     position: relative;
     background-color: var(--second-background-color);
+    color: var(--text-color);
 }
 .service1 h1{
     margin-bottom: 10px;
@@ -303,7 +303,7 @@ nav{
     background-color: var(--text-color);
     position: absolute;
     right: 0;
-    top: 75%;
+    top: 73%;
 }
 .servicelink i{
     font-size: 250%;
@@ -325,6 +325,7 @@ nav{
 /*------------------------------------------portfolio start---------------------------------------*/
 .portfolio-section{
     min-height: 100vh;
+    background-color: var(--second-background-color);
 }
 .portfolioheading{
     text-align: center;
@@ -349,7 +350,7 @@ nav{
     object-fit: cover;
     border-radius: 20px;
 }
-@media (max-width:768px){
+@media screen and (max-width:768px){
     #portfolio{
         margin-top: .5rem;
     }
@@ -358,6 +359,9 @@ nav{
         font-weight: 800;
         margin: 0px 0;
     }
+}
+@media (max-width:480px) {
+    
 }
 /*------------------------------------------portfolio end---------------------------------------*/
 /*------------------------------------------footer start---------------------------------------*/
