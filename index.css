@@ -359,7 +359,7 @@ nav{
 }
 .portfolio1{
     height: auto;
-    background-color: var(--second-text-color);
+    background-color: var(--text-color);
     border-radius: 8px;
 }
 .portfolio-details{
