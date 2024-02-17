@@ -319,7 +319,7 @@ nav{
     left: 25%;
     color: var(--second-background-color);
 }
-.service-img{
+/*--.service-img{
     width: 80px;
     height: 80px;
     margin-bottom: 20px;
@@ -327,7 +327,7 @@ nav{
 .service-img img{
     width: 100%;
     height: 100%;
-}
+}--*/
 /*------------------------------------------service end---------------------------------------*/
 /*------------------------------------------portfolio start---------------------------------------*/
 .portfolio-section{
