@@ -8,7 +8,7 @@
     font-family: 'Dosis', sans-serif;
 }
 html{
-    --background-color:#FAFAFA;
+    --background-color:#fafafa;
     --second-background-color:#fff;
     --text-color: #000;
     --second-text-color:#757575;
@@ -69,7 +69,7 @@ nav{
     }
     .change{
         position: absolute;
-        background-color: var(--second-background-color);
+        background-color: var(--text-color);
         top: 3rem;
         right: 2rem;
         display: flex;
@@ -80,9 +80,10 @@ nav{
         align-items: center;
         border-radius: 10px;
         z-index: 100;
+        color: var(--background-color);
     }
     .navlinks a{
-        color: var(--text-color);
+        color: var(--background-color);
     }
 }
 /*------------------------------------------navbar end---------------------------------------*/
@@ -295,7 +296,8 @@ nav{
 }
 .service1{
     padding: 20px;
-    border-radius: 15px 15px 100px 15px;
+    border-radius: 15px;
+    border: 2px solid var(--second-text-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -396,7 +398,11 @@ nav{
     }
 }
 @media (max-width:480px) {
-    
+    .portfolioheading{
+        font-size: 2.8rem;
+        font-weight: 800;
+        margin: 0px 0;
+    }
 }
 /*------------------------------------------portfolio end---------------------------------------*/
 /*------------------------------------------footer start---------------------------------------*/
@@ -466,7 +472,7 @@ transform: scale(1.5);
     margin: 10px 0;
 }
 .qute{
-    width: 60%;
+    max-width: 60%;
     margin: 0 auto;
     padding: 1rem;
     background-color: var(--text-color);
