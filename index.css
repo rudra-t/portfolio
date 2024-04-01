@@ -7,11 +7,17 @@
     scroll-behavior: smooth;
     font-family: 'Dosis', sans-serif;
 }
-html{
-    --background-color:#fafafa;
-    --second-background-color:#fff;
+/*html{
+    --background-color:#f2f2f2;
+    --second-background-color:#c0ded9;
     --text-color: #000;
     --second-text-color:#757575;
+}*/
+html{
+        --background-color:#FFF6ED;
+        --second-background-color:#FDDA7C;
+        --text-color: #013C2A;
+        --second-text-color:#FB7D40;
 }
 body{
     background-color: var(--background-color);
@@ -402,7 +408,6 @@ nav{
     width: 80%;
     margin: 0 auto;
 }
-/*--
 .contact form{
     display: flex;
     flex-direction: column;
@@ -439,7 +444,7 @@ nav{
     color: var(--background-color);
     text-transform: uppercase;
     font-size: 1rem;
-}--*/
+}
 .contact2{
     display: flex;
     align-items: center;
