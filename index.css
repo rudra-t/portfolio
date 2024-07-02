@@ -8,9 +8,10 @@
     font-family: 'Dosis', sans-serif;
 }
 html{
-    --background-color:#f2f2f2;
-    --second-background-color:#c0ded9;
-    --text-color: #000;
+    --background-color:#ffffff;
+    --second-background-color:#c8e0ca;
+    --third-background-color:#f7b318;
+    --text-color: #135858;
     --second-text-color:#757575;
 }
 /*html{
@@ -108,7 +109,7 @@ nav{
 }
 .header1 span{
     font-size: 6rem;
-    color: var(--text-color);
+    color: var(--third-background-color);
     margin-bottom: 10px;
     letter-spacing: 2px;
 }
@@ -225,7 +226,7 @@ nav{
     border-radius: 50px;
     color: var(--text-color);
     border: 1px solid var(--text-color);
-    background-color: var(--second-background-color);
+    background-color: var(--background-color);
 }
 .about-btn:hover{
     background-color: var(--text-color);
@@ -307,22 +308,23 @@ nav{
     flex-direction: column;
     justify-content: center;
     position: relative;
-    background-color: var(--second-background-color);
     color: var(--text-color);
+    background-color: var(--text-color);
 }
 .service1 h1{
     margin-bottom: 10px;
+    color: var(--background-color);
 }
 .service1 p{
     max-width: 90%;
-    color: var(--second-text-color);
+    color: var(--background-color);
 }
 .servicelink i{
     font-size: 250%;
     position: absolute;
     top: 22%;
     left: 25%;
-    color: var(--second-background-color);
+    color: var(--background-color);
 }
 /*--.service-img{
     width: 80px;
@@ -401,14 +403,14 @@ nav{
 /*------------------------------------------portfolio end---------------------------------------*/
 /*------------------------------------------footer start---------------------------------------*/
 .footer{
-    height: 80vh;
+    height: 30vh;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: end;
     width: 80%;
     margin: 0 auto;
 }
-.contact form{
+/*--.contact form{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -444,12 +446,12 @@ nav{
     color: var(--background-color);
     text-transform: uppercase;
     font-size: 1rem;
-}
+}*/
 .contact2{
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
 }
 .footer i{
     font-size: 3rem;
