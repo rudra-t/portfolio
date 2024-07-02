@@ -109,7 +109,7 @@ nav{
 }
 .header1 span{
     font-size: 6rem;
-    color: var(--third-background-color);
+    color: var(--text-color);
     margin-bottom: 10px;
     letter-spacing: 2px;
 }
@@ -195,6 +195,9 @@ nav{
 }
 /*------------------------------------------header end---------------------------------------*/
 /*------------------------------------------about start---------------------------------------*/
+#about{
+    background-color: var(--second-background-color);
+}
 .about-row{
     margin: 0 10%;
     display: grid;
@@ -403,12 +406,13 @@ nav{
 /*------------------------------------------portfolio end---------------------------------------*/
 /*------------------------------------------footer start---------------------------------------*/
 .footer{
-    height: 30vh;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: end;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
+    background-color: var(--second-background-color);
+    border-radius: 20px;
 }
 /*--.contact form{
     display: flex;
@@ -475,6 +479,7 @@ transform: scale(1.5);
     color: var(--background-color);
     margin-top: 4rem;
     border-radius: 20px;
+    z-index: 100;
 }
 .qute h1{
     text-align: center;
@@ -484,7 +489,7 @@ transform: scale(1.5);
     .footer{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        min-height: 100vh;
+        min-height: 30vh;
     }
 }
 @media screen and (max-width: 480px) {
