@@ -87,10 +87,10 @@ nav{
         align-items: center;
         border-radius: 10px;
         z-index: 100;
-        color: var(--background-color);
+        color: var(--second-background-color);
     }
     .navlinks a{
-        color: var(--background-color);
+        color: var(--second-background-color);
     }
 }
 /*------------------------------------------navbar end---------------------------------------*/
@@ -217,7 +217,7 @@ nav{
     letter-spacing: 2px;
 }
 .about1 p{
-    color: var(--second-text-color);
+    color: var(--text-color);
     margin-bottom: 50px;
     line-height: 30px;
 }
