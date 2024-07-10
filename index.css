@@ -20,9 +20,6 @@ html{
         --text-color: #013C2A;
         --second-text-color:#FB7D40;
 }*/
-body{
-    background-color: var(--background-color);
-}
 /*------------------------------------------navbar start---------------------------------------*/
 nav{
     position: fixed;
@@ -70,13 +67,13 @@ nav{
 @media screen and (max-width: 768px) {
     #nav-bars{
         display: block;
+        color: var(--text-color);
     } 
     .navlink{
         display: none;
     }
     .change{
         position: absolute;
-        background-color: var(--text-color);
         top: 3rem;
         right: 2rem;
         display: flex;
@@ -87,10 +84,10 @@ nav{
         align-items: center;
         border-radius: 10px;
         z-index: 100;
-        color: var(--second-background-color);
+        background-color: var(--text-color);
     }
-    .navlinks a{
-        color: var(--second-background-color);
+    .navlink a{
+        color: var(--background-color);
     }
 }
 /*------------------------------------------navbar end---------------------------------------*/
@@ -182,10 +179,10 @@ nav{
         font-size: 2.7rem;
     }
     .header1 span{
-        font-size: 4.2rem;
+        font-size: 3rem;
     }
     .header1 h3{
-        font-size: 2.5rem;
+        font-size: 2.1rem;
         margin: 10px 0;
     }
     .header2 img{
