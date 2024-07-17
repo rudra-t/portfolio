@@ -96,7 +96,7 @@ nav{
     margin: 0 10%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    min-height: 100vh;
+    min-height: 90vh;
     align-items: center;
 }
 .header1 h1{
@@ -192,9 +192,6 @@ nav{
 }
 /*------------------------------------------header end---------------------------------------*/
 /*------------------------------------------about start---------------------------------------*/
-#about{
-    background-color: var(--second-background-color);
-}
 .about-row{
     margin: 0 10%;
     display: grid;
@@ -279,7 +276,7 @@ nav{
 /*------------------------------------------about end---------------------------------------*/
 /*------------------------------------------service start---------------------------------------*/
 .service-section{
-    min-height: 80vh;
+    min-height: 100vh;
 }
 .serviceheading{
     color: var(--text-color);
@@ -350,7 +347,7 @@ nav{
 .portfolio{
     padding: 8rem 10% 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 4rem;
 }
 .portfolio1{
@@ -392,12 +389,20 @@ nav{
         font-weight: 800;
         margin: 0px 0;
     }
+    .portfolio-section{
+        min-height: 100vh;
+        margin: 3rem 0;
+    }
 }
 @media (max-width:480px) {
     .portfolioheading{
         font-size: 2.8rem;
         font-weight: 800;
         margin: 0px 0;
+    }
+    .portfolio-section{
+        min-height: 100vh;
+        margin: 4rem 0;
     }
 }
 /*------------------------------------------portfolio end---------------------------------------*/
@@ -410,6 +415,7 @@ nav{
     margin: 0 auto;
     background-color: var(--second-background-color);
     border-radius: 20px;
+    min-height: 40vh;
 }
 /*--.contact form{
     display: flex;
@@ -469,14 +475,14 @@ transform: scale(1.5);
     margin: 10px 0;
 }
 .qute{
-    max-width: 60%;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: auto;
+    margin-top: -18rem;
     padding: 1rem;
     background-color: var(--text-color);
     color: var(--background-color);
-    margin-top: 4rem;
     border-radius: 20px;
-    z-index: 100;
+    z-index: 1;
 }
 .qute h1{
     text-align: center;
@@ -486,7 +492,12 @@ transform: scale(1.5);
     .footer{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        min-height: 30vh;
+    }
+    .qute h1{
+        font-size: 2.7rem;
+    }
+    .qute{
+        margin-top: -17rem;  
     }
 }
 @media screen and (max-width: 480px) {
